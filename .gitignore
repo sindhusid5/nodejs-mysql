@@ -1,0 +1,16 @@
+ # Node modules
+node_modules/
+ 
+
+# Runtime data
+pids/
+*.pid
+*.seed 
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variables file
+.env
+
+# MySQL generated files
+*.sql 
