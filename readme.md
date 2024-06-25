@@ -19,35 +19,27 @@ Before starting, ensure you have the following installed:
 1. **Clone the repository to your local machine:**
 
    ```bash
-   git clone <repository-url>
+   git clone  https://github.com/sindhusid5/nodejs-mysql.git 
    ```
 
-   Replace `<repository-url>` with the URL of your Git repository.
-
-2. **Switch to the `assignment7` branch (if specified):**
-
-   ```bash
-   git checkout assignment7
-   ```
-
-3. **Navigate to the project directory:**
+2. **Navigate to the project directory:**
 
    ```bash
    cd nodejs-mysql
    ```
 
-4. **Install dependencies:**
+3. **Install dependencies:**
 
    ```bash
    npm install
    ```
 
-5. **Set up MySQL Database:**
+4. **Set up MySQL Database:**
 
    - Ensure your MySQL server is running.
    - Create a new database and a `users` table.  
 
-6. **Update MySQL Connection in Your Application:**
+5. **Update MySQL Connection in Your Application:**
 
    Update your application (`app.js` or wherever your database connection is configured) to use the MySQL database. Here's a basic example of how you might set up the connection using `mysql2`:
 
@@ -96,7 +88,7 @@ Before starting, ensure you have the following installed:
 
    Replace `'your_mysql_username'` and `'your_mysql_password'` with your MySQL username and password.
 
-7. **Start the ExpressJS application:**
+6. **Start the ExpressJS application:**
 
    ```bash
    npm start
@@ -108,7 +100,7 @@ Before starting, ensure you have the following installed:
    node app.js
    ```
 
-8. **Access Routes:**
+7. **Access Routes:**
 
    Once the server is running, you can access the following routes:
 
@@ -126,7 +118,7 @@ Before starting, ensure you have the following installed:
    - Fetch user by ID: `http://localhost:4000/users/1`
    - Add user: `http://localhost:4000/users`
 
-9. **Stop the server:**
+8. **Stop the server:**
 
    To stop the server, press `Ctrl + C` in the terminal.
  
